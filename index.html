@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Maberu Solutions — M365 & Power Platform</title>
+<title>Mantas Sedys — M365 & Power Platform</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
@@ -295,7 +295,29 @@
     font-weight: 300;
   }
 
-  /* WHY */
+  .azure-badge {
+    grid-column: 1 / -1;
+    background: var(--ink);
+    color: var(--paper);
+    padding: 0.9rem 2.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  .azure-badge span {
+    display: inline-block;
+    width: 8px; height: 8px;
+    background: #0078d4;
+    border-radius: 50%;
+  }
+
+  .azure-item { background: #fafaf8; }
+  .azure-item:hover { background: #fff; }
   .why {
     padding: 7rem 4rem;
     background: var(--ink);
@@ -506,7 +528,7 @@
 
 <!-- NAV -->
 <nav>
-  <a class="logo" href="#">Maberu<span>.</span></a>
+  <a class="logo" href="#">Built to deliver<span>.</span></a>
   <ul>
     <li><a href="#services">Services</a></li>
     <li><a href="#process">Process</a></li>
@@ -518,9 +540,9 @@
 <!-- HERO -->
 <section class="hero">
   <div class="hero-content">
-    <p class="hero-label">M365 &amp; Power Platform Specialists</p>
+    <p class="hero-label">M365 · Power Platform · Azure</p>
     <h1>Transform how your<br><em>business works</em></h1>
-    <p class="hero-sub">Maberu Solutions delivers expert Microsoft 365 and Power Platform development — building custom apps, automated workflows, and intelligent solutions that drive real results.</p>
+    <p class="hero-sub">Mantas Sedys delivers expert Microsoft 365, Power Platform, and Azure development — building custom apps, automated workflows, and cloud-powered solutions that drive real results.</p>
     <div class="hero-actions">
       <a href="#contact" class="btn-primary">Start a project</a>
       <a href="#services" class="btn-ghost">Our services →</a>
@@ -555,13 +577,22 @@
         <div class="stat-desc">Deep integration & customisation across the suite</div>
       </div>
     </div>
+    <div class="stat-card">
+      <div class="stat-icon">
+        <svg viewBox="0 0 24 24"><path d="M3 18l4-8 4 4 4-6 4 10H3z"/><path d="M3 18h18"/></svg>
+      </div>
+      <div>
+        <div class="stat-title">Azure</div>
+        <div class="stat-desc">Scalable cloud infrastructure, functions & integrations</div>
+      </div>
+    </div>
   </div>
 </section>
 
 <!-- SERVICES -->
 <section class="services" id="services">
   <p class="section-label">What we do</p>
-  <h2 class="section-title">End-to-end Power Platform development</h2>
+  <h2 class="section-title">End-to-end Microsoft cloud development</h2>
 
   <div class="services-grid">
     <div class="service-item">
@@ -594,29 +625,45 @@
       <div class="service-name">Dataverse & Integrations</div>
       <p class="service-desc">Unified data models and seamless integrations between Microsoft and third-party systems using Dataverse, custom connectors, and APIs.</p>
     </div>
+    <div class="azure-badge"><span></span> Azure Services</div>
+    <div class="service-item azure-item">
+      <div class="service-num">07</div>
+      <div class="service-name">Azure Functions & Logic Apps</div>
+      <p class="service-desc">Serverless compute and orchestration for complex business logic — from event-driven automation to scheduled jobs running in the cloud.</p>
+    </div>
+    <div class="service-item azure-item">
+      <div class="service-num">08</div>
+      <div class="service-name">Azure Integration Services</div>
+      <p class="service-desc">Connect on-premise systems, SaaS tools, and Microsoft services using Azure Service Bus, API Management, and Event Grid.</p>
+    </div>
+    <div class="service-item azure-item">
+      <div class="service-num">09</div>
+      <div class="service-name">Azure AI & Cognitive Services</div>
+      <p class="service-desc">Embed AI capabilities into your apps — document intelligence, natural language processing, and AI Search powered by Azure OpenAI.</p>
+    </div>
   </div>
 </section>
 
 <!-- WHY -->
 <section class="why">
   <div>
-    <p class="section-label">Why Maberu</p>
-    <h2 class="section-title">Specialists, not generalists</h2>
-    <p class="why-lead">We focus exclusively on the Microsoft Power Platform and M365 ecosystem. That depth means faster delivery, fewer surprises, and solutions that are built to last inside your existing environment.</p>
+    <p class="section-label">Why Mantas</p>
+    <h2 class="section-title">Specialist, not generalist</h2>
+    <p class="why-lead">I focus exclusively on the Microsoft ecosystem — Power Platform, M365, and Azure. That depth means faster delivery, fewer surprises, and solutions built to last inside your existing environment.</p>
   </div>
   <ul class="why-list">
     <li>
       <div class="why-check"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></div>
       <div>
         <strong>Microsoft-first approach</strong>
-        <span>No unnecessary third-party tools — we maximise what you already pay for.</span>
+        <span>No unnecessary third-party tools — I maximise what you already pay for.</span>
       </div>
     </li>
     <li>
       <div class="why-check"><svg viewBox="0 0 12 12"><polyline points="2,6 5,9 10,3"/></svg></div>
       <div>
         <strong>Business-outcome focused</strong>
-        <span>We translate your goals into functional solutions, not technical showpieces.</span>
+        <span>I translate your goals into functional solutions, not technical showpieces.</span>
       </div>
     </li>
     <li>
@@ -644,12 +691,12 @@
     <div class="step">
       <div class="step-dot">1</div>
       <div class="step-name">Discovery</div>
-      <p class="step-desc">We map your current process, pain points, and goals in a focused kickoff session.</p>
+      <p class="step-desc">I map your current process, pain points, and goals in a focused kickoff session.</p>
     </div>
     <div class="step">
       <div class="step-dot">2</div>
       <div class="step-name">Design</div>
-      <p class="step-desc">We prototype and design the solution, getting your sign-off before writing a line of code.</p>
+      <p class="step-desc">I prototype and design the solution, getting your sign-off before writing a line of code.</p>
     </div>
     <div class="step">
       <div class="step-dot">3</div>
@@ -684,6 +731,9 @@
       <option>SharePoint Solutions</option>
       <option>M365 Consulting</option>
       <option>Dataverse & Integrations</option>
+      <option>Azure Functions & Logic Apps</option>
+      <option>Azure Integration Services</option>
+      <option>Azure AI & Cognitive Services</option>
       <option>Not sure — let's discuss</option>
     </select>
     <textarea placeholder="Tell us a little about what you need…"></textarea>
@@ -693,7 +743,7 @@
 
 <!-- FOOTER -->
 <footer>
-  <div>© 2025 Maberu Solutions. All rights reserved.</div>
+  <div>© 2025 Mantas Sedys. All rights reserved.</div>
   <div style="display:flex;gap:2rem;">
     <a href="#">LinkedIn</a>
     <a href="#">Privacy</a>
